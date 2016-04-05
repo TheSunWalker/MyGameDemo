@@ -1,0 +1,619 @@
+fileFormatVersion: 2
+guid: c4c9606cbc255d44088f83cc423936f1
+timeCreated: 1459820895
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone_Illidan_1
+    100002: Bone_Illidan_10
+    100004: Bone_Illidan_100
+    100006: Bone_Illidan_101
+    100008: Bone_Illidan_102
+    100010: Bone_Illidan_103
+    100012: Bone_Illidan_104
+    100014: Bone_Illidan_105
+    100016: Bone_Illidan_106
+    100018: Bone_Illidan_107
+    100020: Bone_Illidan_108
+    100022: Bone_Illidan_109
+    100024: Bone_Illidan_11
+    100026: Bone_Illidan_110
+    100028: Bone_Illidan_111
+    100030: Bone_Illidan_112
+    100032: Bone_Illidan_113
+    100034: Bone_Illidan_114
+    100036: Bone_Illidan_115
+    100038: Bone_Illidan_116
+    100040: Bone_Illidan_117
+    100042: Bone_Illidan_118
+    100044: Bone_Illidan_119
+    100046: Bone_Illidan_12
+    100048: Bone_Illidan_120
+    100050: Bone_Illidan_121
+    100052: Bone_Illidan_122
+    100054: Bone_Illidan_123
+    100056: Bone_Illidan_124
+    100058: Bone_Illidan_125
+    100060: Bone_Illidan_126
+    100062: Bone_Illidan_127
+    100064: Bone_Illidan_13
+    100066: Bone_Illidan_14
+    100068: Bone_Illidan_15
+    100070: Bone_Illidan_16
+    100072: Bone_Illidan_17
+    100074: Bone_Illidan_18
+    100076: Bone_Illidan_19
+    100078: Bone_Illidan_2
+    100080: Bone_Illidan_20
+    100082: Bone_Illidan_21
+    100084: Bone_Illidan_22
+    100086: Bone_Illidan_23
+    100088: Bone_Illidan_24
+    100090: Bone_Illidan_25
+    100092: Bone_Illidan_26
+    100094: Bone_Illidan_27
+    100096: Bone_Illidan_28
+    100098: Bone_Illidan_29
+    100100: Bone_Illidan_3
+    100102: Bone_Illidan_30
+    100104: Bone_Illidan_31
+    100106: Bone_Illidan_32
+    100108: Bone_Illidan_33
+    100110: Bone_Illidan_34
+    100112: Bone_Illidan_35
+    100114: Bone_Illidan_36
+    100116: Bone_Illidan_37
+    100118: Bone_Illidan_38
+    100120: Bone_Illidan_39
+    100122: Bone_Illidan_4
+    100124: Bone_Illidan_40
+    100126: Bone_Illidan_41
+    100128: Bone_Illidan_42
+    100130: Bone_Illidan_43
+    100132: Bone_Illidan_44
+    100134: Bone_Illidan_45
+    100136: Bone_Illidan_46
+    100138: Bone_Illidan_47
+    100140: Bone_Illidan_48
+    100142: Bone_Illidan_49
+    100144: Bone_Illidan_5
+    100146: Bone_Illidan_50
+    100148: Bone_Illidan_51
+    100150: Bone_Illidan_52
+    100152: Bone_Illidan_53
+    100154: Bone_Illidan_54
+    100156: Bone_Illidan_55
+    100158: Bone_Illidan_56
+    100160: Bone_Illidan_57
+    100162: Bone_Illidan_58
+    100164: Bone_Illidan_59
+    100166: Bone_Illidan_6
+    100168: Bone_Illidan_60
+    100170: Bone_Illidan_61
+    100172: Bone_Illidan_62
+    100174: Bone_Illidan_63
+    100176: Bone_Illidan_64
+    100178: Bone_Illidan_65
+    100180: Bone_Illidan_66
+    100182: Bone_Illidan_67
+    100184: Bone_Illidan_68
+    100186: Bone_Illidan_69
+    100188: Bone_Illidan_7
+    100190: Bone_Illidan_70
+    100192: Bone_Illidan_71
+    100194: Bone_Illidan_72
+    100196: Bone_Illidan_73
+    100198: Bone_Illidan_74
+    100200: Bone_Illidan_75
+    100202: Bone_Illidan_76
+    100204: Bone_Illidan_77
+    100206: Bone_Illidan_78
+    100208: Bone_Illidan_79
+    100210: Bone_Illidan_8
+    100212: Bone_Illidan_80
+    100214: Bone_Illidan_81
+    100216: Bone_Illidan_82
+    100218: Bone_Illidan_83
+    100220: Bone_Illidan_84
+    100222: Bone_Illidan_85
+    100224: Bone_Illidan_86
+    100226: Bone_Illidan_87
+    100228: Bone_Illidan_88
+    100230: Bone_Illidan_89
+    100232: Bone_Illidan_9
+    100234: Bone_Illidan_90
+    100236: Bone_Illidan_91
+    100238: Bone_Illidan_92
+    100240: Bone_Illidan_93
+    100242: Bone_Illidan_94
+    100244: Bone_Illidan_95
+    100246: Bone_Illidan_96
+    100248: Bone_Illidan_97
+    100250: Bone_Illidan_98
+    100252: Bone_Illidan_99
+    100254: //RootNode
+    100256: Mesh_Illidan
+    400000: Bone_Illidan_1
+    400002: Bone_Illidan_10
+    400004: Bone_Illidan_100
+    400006: Bone_Illidan_101
+    400008: Bone_Illidan_102
+    400010: Bone_Illidan_103
+    400012: Bone_Illidan_104
+    400014: Bone_Illidan_105
+    400016: Bone_Illidan_106
+    400018: Bone_Illidan_107
+    400020: Bone_Illidan_108
+    400022: Bone_Illidan_109
+    400024: Bone_Illidan_11
+    400026: Bone_Illidan_110
+    400028: Bone_Illidan_111
+    400030: Bone_Illidan_112
+    400032: Bone_Illidan_113
+    400034: Bone_Illidan_114
+    400036: Bone_Illidan_115
+    400038: Bone_Illidan_116
+    400040: Bone_Illidan_117
+    400042: Bone_Illidan_118
+    400044: Bone_Illidan_119
+    400046: Bone_Illidan_12
+    400048: Bone_Illidan_120
+    400050: Bone_Illidan_121
+    400052: Bone_Illidan_122
+    400054: Bone_Illidan_123
+    400056: Bone_Illidan_124
+    400058: Bone_Illidan_125
+    400060: Bone_Illidan_126
+    400062: Bone_Illidan_127
+    400064: Bone_Illidan_13
+    400066: Bone_Illidan_14
+    400068: Bone_Illidan_15
+    400070: Bone_Illidan_16
+    400072: Bone_Illidan_17
+    400074: Bone_Illidan_18
+    400076: Bone_Illidan_19
+    400078: Bone_Illidan_2
+    400080: Bone_Illidan_20
+    400082: Bone_Illidan_21
+    400084: Bone_Illidan_22
+    400086: Bone_Illidan_23
+    400088: Bone_Illidan_24
+    400090: Bone_Illidan_25
+    400092: Bone_Illidan_26
+    400094: Bone_Illidan_27
+    400096: Bone_Illidan_28
+    400098: Bone_Illidan_29
+    400100: Bone_Illidan_3
+    400102: Bone_Illidan_30
+    400104: Bone_Illidan_31
+    400106: Bone_Illidan_32
+    400108: Bone_Illidan_33
+    400110: Bone_Illidan_34
+    400112: Bone_Illidan_35
+    400114: Bone_Illidan_36
+    400116: Bone_Illidan_37
+    400118: Bone_Illidan_38
+    400120: Bone_Illidan_39
+    400122: Bone_Illidan_4
+    400124: Bone_Illidan_40
+    400126: Bone_Illidan_41
+    400128: Bone_Illidan_42
+    400130: Bone_Illidan_43
+    400132: Bone_Illidan_44
+    400134: Bone_Illidan_45
+    400136: Bone_Illidan_46
+    400138: Bone_Illidan_47
+    400140: Bone_Illidan_48
+    400142: Bone_Illidan_49
+    400144: Bone_Illidan_5
+    400146: Bone_Illidan_50
+    400148: Bone_Illidan_51
+    400150: Bone_Illidan_52
+    400152: Bone_Illidan_53
+    400154: Bone_Illidan_54
+    400156: Bone_Illidan_55
+    400158: Bone_Illidan_56
+    400160: Bone_Illidan_57
+    400162: Bone_Illidan_58
+    400164: Bone_Illidan_59
+    400166: Bone_Illidan_6
+    400168: Bone_Illidan_60
+    400170: Bone_Illidan_61
+    400172: Bone_Illidan_62
+    400174: Bone_Illidan_63
+    400176: Bone_Illidan_64
+    400178: Bone_Illidan_65
+    400180: Bone_Illidan_66
+    400182: Bone_Illidan_67
+    400184: Bone_Illidan_68
+    400186: Bone_Illidan_69
+    400188: Bone_Illidan_7
+    400190: Bone_Illidan_70
+    400192: Bone_Illidan_71
+    400194: Bone_Illidan_72
+    400196: Bone_Illidan_73
+    400198: Bone_Illidan_74
+    400200: Bone_Illidan_75
+    400202: Bone_Illidan_76
+    400204: Bone_Illidan_77
+    400206: Bone_Illidan_78
+    400208: Bone_Illidan_79
+    400210: Bone_Illidan_8
+    400212: Bone_Illidan_80
+    400214: Bone_Illidan_81
+    400216: Bone_Illidan_82
+    400218: Bone_Illidan_83
+    400220: Bone_Illidan_84
+    400222: Bone_Illidan_85
+    400224: Bone_Illidan_86
+    400226: Bone_Illidan_87
+    400228: Bone_Illidan_88
+    400230: Bone_Illidan_89
+    400232: Bone_Illidan_9
+    400234: Bone_Illidan_90
+    400236: Bone_Illidan_91
+    400238: Bone_Illidan_92
+    400240: Bone_Illidan_93
+    400242: Bone_Illidan_94
+    400244: Bone_Illidan_95
+    400246: Bone_Illidan_96
+    400248: Bone_Illidan_97
+    400250: Bone_Illidan_98
+    400252: Bone_Illidan_99
+    400254: //RootNode
+    400256: Mesh_Illidan
+    4300000: Mesh_Illidan
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Mesh_Illidan
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1515
+      lastFrame: 1540
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 5
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Illidan_1
+        weight: 1
+      - path: Bone_Illidan_2
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_4
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_4/Bone_Illidan_6
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_4/Bone_Illidan_6/Bone_Illidan_10
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_4/Bone_Illidan_6/Bone_Illidan_10/Bone_Illidan_14
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_4/Bone_Illidan_7
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_4/Bone_Illidan_7/Bone_Illidan_12
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_4/Bone_Illidan_7/Bone_Illidan_12/Bone_Illidan_16
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_4/Bone_Illidan_9
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_4/Bone_Illidan_9/Bone_Illidan_11
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_4/Bone_Illidan_9/Bone_Illidan_11/Bone_Illidan_15
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_4/Bone_Illidan_102
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_4/Bone_Illidan_103
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_17
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_17/Bone_Illidan_22
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_17/Bone_Illidan_22/Bone_Illidan_27
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_17/Bone_Illidan_22/Bone_Illidan_27/Bone_Illidan_44
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_17/Bone_Illidan_22/Bone_Illidan_27/Bone_Illidan_44/Bone_Illidan_63
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_17/Bone_Illidan_22/Bone_Illidan_27/Bone_Illidan_44/Bone_Illidan_63/Bone_Illidan_82
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_17/Bone_Illidan_22/Bone_Illidan_27/Bone_Illidan_44/Bone_Illidan_64
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_17/Bone_Illidan_22/Bone_Illidan_27/Bone_Illidan_44/Bone_Illidan_64/Bone_Illidan_83
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_17/Bone_Illidan_22/Bone_Illidan_27/Bone_Illidan_44/Bone_Illidan_65
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_17/Bone_Illidan_22/Bone_Illidan_27/Bone_Illidan_44/Bone_Illidan_65/Bone_Illidan_84
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_17/Bone_Illidan_22/Bone_Illidan_27/Bone_Illidan_44/Bone_Illidan_66
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_17/Bone_Illidan_22/Bone_Illidan_27/Bone_Illidan_44/Bone_Illidan_66/Bone_Illidan_85
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_17/Bone_Illidan_22/Bone_Illidan_27/Bone_Illidan_44/Bone_Illidan_67
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_17/Bone_Illidan_22/Bone_Illidan_27/Bone_Illidan_44/Bone_Illidan_67/Bone_Illidan_86
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_17/Bone_Illidan_22/Bone_Illidan_27/Bone_Illidan_44/Bone_Illidan_120
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_17/Bone_Illidan_22/Bone_Illidan_27/Bone_Illidan_44/Bone_Illidan_120/Bone_Illidan_125
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_17/Bone_Illidan_22/Bone_Illidan_27/Bone_Illidan_44/Bone_Illidan_120/Bone_Illidan_126
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_17/Bone_Illidan_22/Bone_Illidan_27/Bone_Illidan_44/Bone_Illidan_122
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_18
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_18/Bone_Illidan_23
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_18/Bone_Illidan_23/Bone_Illidan_28
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_18/Bone_Illidan_23/Bone_Illidan_28/Bone_Illidan_45
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_18/Bone_Illidan_23/Bone_Illidan_28/Bone_Illidan_45/Bone_Illidan_68
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_18/Bone_Illidan_23/Bone_Illidan_28/Bone_Illidan_46
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_18/Bone_Illidan_23/Bone_Illidan_28/Bone_Illidan_46/Bone_Illidan_69
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_18/Bone_Illidan_23/Bone_Illidan_28/Bone_Illidan_47
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_18/Bone_Illidan_23/Bone_Illidan_28/Bone_Illidan_47/Bone_Illidan_70
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_18/Bone_Illidan_23/Bone_Illidan_28/Bone_Illidan_48
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_18/Bone_Illidan_23/Bone_Illidan_28/Bone_Illidan_48/Bone_Illidan_71
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_18/Bone_Illidan_23/Bone_Illidan_28/Bone_Illidan_49
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_19
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_19/Bone_Illidan_24
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_19/Bone_Illidan_24/Bone_Illidan_29
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_19/Bone_Illidan_24/Bone_Illidan_29/Bone_Illidan_50
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_19/Bone_Illidan_24/Bone_Illidan_29/Bone_Illidan_50/Bone_Illidan_72
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_19/Bone_Illidan_24/Bone_Illidan_29/Bone_Illidan_50/Bone_Illidan_72/Bone_Illidan_87
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_19/Bone_Illidan_24/Bone_Illidan_29/Bone_Illidan_50/Bone_Illidan_73
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_19/Bone_Illidan_24/Bone_Illidan_29/Bone_Illidan_50/Bone_Illidan_73/Bone_Illidan_88
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_19/Bone_Illidan_24/Bone_Illidan_29/Bone_Illidan_50/Bone_Illidan_74
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_19/Bone_Illidan_24/Bone_Illidan_29/Bone_Illidan_50/Bone_Illidan_74/Bone_Illidan_89
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_19/Bone_Illidan_24/Bone_Illidan_29/Bone_Illidan_50/Bone_Illidan_75
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_19/Bone_Illidan_24/Bone_Illidan_29/Bone_Illidan_50/Bone_Illidan_75/Bone_Illidan_90
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_19/Bone_Illidan_24/Bone_Illidan_29/Bone_Illidan_50/Bone_Illidan_76
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_19/Bone_Illidan_24/Bone_Illidan_29/Bone_Illidan_50/Bone_Illidan_76/Bone_Illidan_91
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_19/Bone_Illidan_24/Bone_Illidan_29/Bone_Illidan_50/Bone_Illidan_121
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_19/Bone_Illidan_24/Bone_Illidan_29/Bone_Illidan_50/Bone_Illidan_121/Bone_Illidan_124
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_19/Bone_Illidan_24/Bone_Illidan_29/Bone_Illidan_50/Bone_Illidan_121/Bone_Illidan_127
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_19/Bone_Illidan_24/Bone_Illidan_29/Bone_Illidan_50/Bone_Illidan_123
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_20
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_20/Bone_Illidan_25
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_20/Bone_Illidan_25/Bone_Illidan_30
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_20/Bone_Illidan_25/Bone_Illidan_30/Bone_Illidan_51
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_20/Bone_Illidan_25/Bone_Illidan_30/Bone_Illidan_51/Bone_Illidan_77
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_20/Bone_Illidan_25/Bone_Illidan_30/Bone_Illidan_52
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_20/Bone_Illidan_25/Bone_Illidan_30/Bone_Illidan_52/Bone_Illidan_78
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_20/Bone_Illidan_25/Bone_Illidan_30/Bone_Illidan_53
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_20/Bone_Illidan_25/Bone_Illidan_30/Bone_Illidan_53/Bone_Illidan_79
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_20/Bone_Illidan_25/Bone_Illidan_30/Bone_Illidan_54
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_20/Bone_Illidan_25/Bone_Illidan_30/Bone_Illidan_55
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_20/Bone_Illidan_25/Bone_Illidan_30/Bone_Illidan_55/Bone_Illidan_80
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_21
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_21/Bone_Illidan_26
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_21/Bone_Illidan_26/Bone_Illidan_31
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_21/Bone_Illidan_26/Bone_Illidan_31/Bone_Illidan_56
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_21/Bone_Illidan_26/Bone_Illidan_32
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_21/Bone_Illidan_26/Bone_Illidan_32/Bone_Illidan_57
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_21/Bone_Illidan_26/Bone_Illidan_33
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_21/Bone_Illidan_26/Bone_Illidan_34
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_21/Bone_Illidan_26/Bone_Illidan_35
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_21/Bone_Illidan_26/Bone_Illidan_35/Bone_Illidan_58
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_21/Bone_Illidan_26/Bone_Illidan_35/Bone_Illidan_58/Bone_Illidan_81
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_21/Bone_Illidan_26/Bone_Illidan_36
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_21/Bone_Illidan_26/Bone_Illidan_37
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_21/Bone_Illidan_26/Bone_Illidan_38
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_21/Bone_Illidan_26/Bone_Illidan_39
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_21/Bone_Illidan_26/Bone_Illidan_40
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_21/Bone_Illidan_26/Bone_Illidan_40/Bone_Illidan_59
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_21/Bone_Illidan_26/Bone_Illidan_41
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_21/Bone_Illidan_26/Bone_Illidan_41/Bone_Illidan_60
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_21/Bone_Illidan_26/Bone_Illidan_42
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_21/Bone_Illidan_26/Bone_Illidan_42/Bone_Illidan_61
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_21/Bone_Illidan_26/Bone_Illidan_43
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_21/Bone_Illidan_26/Bone_Illidan_43/Bone_Illidan_62
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_21/Bone_Illidan_26/Bone_Illidan_117
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_21/Bone_Illidan_26/Bone_Illidan_118
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_21/Bone_Illidan_26/Bone_Illidan_119
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_106
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_107
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_108
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_109
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_110
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_111
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_112
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_113
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_114
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_115
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_8/Bone_Illidan_13/Bone_Illidan_116
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_104
+        weight: 1
+      - path: Bone_Illidan_2/Bone_Illidan_3/Bone_Illidan_5/Bone_Illidan_105
+        weight: 1
+      - path: Bone_Illidan_92
+        weight: 1
+      - path: Bone_Illidan_93
+        weight: 1
+      - path: Bone_Illidan_94
+        weight: 1
+      - path: Bone_Illidan_95
+        weight: 1
+      - path: Bone_Illidan_96
+        weight: 1
+      - path: Bone_Illidan_97
+        weight: 1
+      - path: Bone_Illidan_98
+        weight: 1
+      - path: Bone_Illidan_99
+        weight: 1
+      - path: Bone_Illidan_100
+        weight: 1
+      - path: Bone_Illidan_101
+        weight: 1
+      - path: Mesh_Illidan
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
