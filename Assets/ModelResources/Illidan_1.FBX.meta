@@ -291,12 +291,12 @@ ModelImporter:
     - serializedVersion: 16
       name: Take 001
       takeName: Take 001
-      firstFrame: 1515
-      lastFrame: 1540
+      firstFrame: 3120
+      lastFrame: 3140
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
-      cycleOffset: 5
+      cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
