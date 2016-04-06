@@ -1,0 +1,563 @@
+fileFormatVersion: 2
+guid: 9b5b4e7ec6b566c47b806e70c1f4d571
+timeCreated: 1459952147
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bone_Arthas_1
+    100004: Bone_Arthas_10
+    100006: Bone_Arthas_100
+    100008: Bone_Arthas_101
+    100010: Bone_Arthas_102
+    100012: Bone_Arthas_103
+    100014: Bone_Arthas_104
+    100016: Bone_Arthas_105
+    100018: Bone_Arthas_106
+    100020: Bone_Arthas_107
+    100022: Bone_Arthas_108
+    100024: Bone_Arthas_109
+    100026: Bone_Arthas_11
+    100028: Bone_Arthas_110
+    100030: Bone_Arthas_111
+    100032: Bone_Arthas_112
+    100034: Bone_Arthas_113
+    100036: Bone_Arthas_12
+    100038: Bone_Arthas_13
+    100040: Bone_Arthas_14
+    100042: Bone_Arthas_15
+    100044: Bone_Arthas_16
+    100046: Bone_Arthas_17
+    100048: Bone_Arthas_18
+    100050: Bone_Arthas_19
+    100052: Bone_Arthas_2
+    100054: Bone_Arthas_20
+    100056: Bone_Arthas_21
+    100058: Bone_Arthas_22
+    100060: Bone_Arthas_23
+    100062: Bone_Arthas_24
+    100064: Bone_Arthas_25
+    100066: Bone_Arthas_26
+    100068: Bone_Arthas_27
+    100070: Bone_Arthas_28
+    100072: Bone_Arthas_29
+    100074: Bone_Arthas_3
+    100076: Bone_Arthas_30
+    100078: Bone_Arthas_31
+    100080: Bone_Arthas_32
+    100082: Bone_Arthas_33
+    100084: Bone_Arthas_34
+    100086: Bone_Arthas_35
+    100088: Bone_Arthas_36
+    100090: Bone_Arthas_37
+    100092: Bone_Arthas_38
+    100094: Bone_Arthas_39
+    100096: Bone_Arthas_4
+    100098: Bone_Arthas_40
+    100100: Bone_Arthas_41
+    100102: Bone_Arthas_42
+    100104: Bone_Arthas_43
+    100106: Bone_Arthas_44
+    100108: Bone_Arthas_45
+    100110: Bone_Arthas_46
+    100112: Bone_Arthas_47
+    100114: Bone_Arthas_48
+    100116: Bone_Arthas_49
+    100118: Bone_Arthas_5
+    100120: Bone_Arthas_50
+    100122: Bone_Arthas_51
+    100124: Bone_Arthas_52
+    100126: Bone_Arthas_53
+    100128: Bone_Arthas_54
+    100130: Bone_Arthas_55
+    100132: Bone_Arthas_56
+    100134: Bone_Arthas_57
+    100136: Bone_Arthas_58
+    100138: Bone_Arthas_59
+    100140: Bone_Arthas_6
+    100142: Bone_Arthas_60
+    100144: Bone_Arthas_61
+    100146: Bone_Arthas_62
+    100148: Bone_Arthas_63
+    100150: Bone_Arthas_64
+    100152: Bone_Arthas_65
+    100154: Bone_Arthas_66
+    100156: Bone_Arthas_67
+    100158: Bone_Arthas_68
+    100160: Bone_Arthas_69
+    100162: Bone_Arthas_7
+    100164: Bone_Arthas_70
+    100166: Bone_Arthas_71
+    100168: Bone_Arthas_72
+    100170: Bone_Arthas_73
+    100172: Bone_Arthas_74
+    100174: Bone_Arthas_75
+    100176: Bone_Arthas_76
+    100178: Bone_Arthas_77
+    100180: Bone_Arthas_78
+    100182: Bone_Arthas_79
+    100184: Bone_Arthas_8
+    100186: Bone_Arthas_80
+    100188: Bone_Arthas_81
+    100190: Bone_Arthas_82
+    100192: Bone_Arthas_83
+    100194: Bone_Arthas_84
+    100196: Bone_Arthas_85
+    100198: Bone_Arthas_86
+    100200: Bone_Arthas_87
+    100202: Bone_Arthas_88
+    100204: Bone_Arthas_89
+    100206: Bone_Arthas_9
+    100208: Bone_Arthas_90
+    100210: Bone_Arthas_91
+    100212: Bone_Arthas_92
+    100214: Bone_Arthas_93
+    100216: Bone_Arthas_94
+    100218: Bone_Arthas_95
+    100220: Bone_Arthas_96
+    100222: Bone_Arthas_97
+    100224: Bone_Arthas_98
+    100226: Bone_Arthas_99
+    100228: Mesh_Arthas
+    400000: //RootNode
+    400002: Bone_Arthas_1
+    400004: Bone_Arthas_10
+    400006: Bone_Arthas_100
+    400008: Bone_Arthas_101
+    400010: Bone_Arthas_102
+    400012: Bone_Arthas_103
+    400014: Bone_Arthas_104
+    400016: Bone_Arthas_105
+    400018: Bone_Arthas_106
+    400020: Bone_Arthas_107
+    400022: Bone_Arthas_108
+    400024: Bone_Arthas_109
+    400026: Bone_Arthas_11
+    400028: Bone_Arthas_110
+    400030: Bone_Arthas_111
+    400032: Bone_Arthas_112
+    400034: Bone_Arthas_113
+    400036: Bone_Arthas_12
+    400038: Bone_Arthas_13
+    400040: Bone_Arthas_14
+    400042: Bone_Arthas_15
+    400044: Bone_Arthas_16
+    400046: Bone_Arthas_17
+    400048: Bone_Arthas_18
+    400050: Bone_Arthas_19
+    400052: Bone_Arthas_2
+    400054: Bone_Arthas_20
+    400056: Bone_Arthas_21
+    400058: Bone_Arthas_22
+    400060: Bone_Arthas_23
+    400062: Bone_Arthas_24
+    400064: Bone_Arthas_25
+    400066: Bone_Arthas_26
+    400068: Bone_Arthas_27
+    400070: Bone_Arthas_28
+    400072: Bone_Arthas_29
+    400074: Bone_Arthas_3
+    400076: Bone_Arthas_30
+    400078: Bone_Arthas_31
+    400080: Bone_Arthas_32
+    400082: Bone_Arthas_33
+    400084: Bone_Arthas_34
+    400086: Bone_Arthas_35
+    400088: Bone_Arthas_36
+    400090: Bone_Arthas_37
+    400092: Bone_Arthas_38
+    400094: Bone_Arthas_39
+    400096: Bone_Arthas_4
+    400098: Bone_Arthas_40
+    400100: Bone_Arthas_41
+    400102: Bone_Arthas_42
+    400104: Bone_Arthas_43
+    400106: Bone_Arthas_44
+    400108: Bone_Arthas_45
+    400110: Bone_Arthas_46
+    400112: Bone_Arthas_47
+    400114: Bone_Arthas_48
+    400116: Bone_Arthas_49
+    400118: Bone_Arthas_5
+    400120: Bone_Arthas_50
+    400122: Bone_Arthas_51
+    400124: Bone_Arthas_52
+    400126: Bone_Arthas_53
+    400128: Bone_Arthas_54
+    400130: Bone_Arthas_55
+    400132: Bone_Arthas_56
+    400134: Bone_Arthas_57
+    400136: Bone_Arthas_58
+    400138: Bone_Arthas_59
+    400140: Bone_Arthas_6
+    400142: Bone_Arthas_60
+    400144: Bone_Arthas_61
+    400146: Bone_Arthas_62
+    400148: Bone_Arthas_63
+    400150: Bone_Arthas_64
+    400152: Bone_Arthas_65
+    400154: Bone_Arthas_66
+    400156: Bone_Arthas_67
+    400158: Bone_Arthas_68
+    400160: Bone_Arthas_69
+    400162: Bone_Arthas_7
+    400164: Bone_Arthas_70
+    400166: Bone_Arthas_71
+    400168: Bone_Arthas_72
+    400170: Bone_Arthas_73
+    400172: Bone_Arthas_74
+    400174: Bone_Arthas_75
+    400176: Bone_Arthas_76
+    400178: Bone_Arthas_77
+    400180: Bone_Arthas_78
+    400182: Bone_Arthas_79
+    400184: Bone_Arthas_8
+    400186: Bone_Arthas_80
+    400188: Bone_Arthas_81
+    400190: Bone_Arthas_82
+    400192: Bone_Arthas_83
+    400194: Bone_Arthas_84
+    400196: Bone_Arthas_85
+    400198: Bone_Arthas_86
+    400200: Bone_Arthas_87
+    400202: Bone_Arthas_88
+    400204: Bone_Arthas_89
+    400206: Bone_Arthas_9
+    400208: Bone_Arthas_90
+    400210: Bone_Arthas_91
+    400212: Bone_Arthas_92
+    400214: Bone_Arthas_93
+    400216: Bone_Arthas_94
+    400218: Bone_Arthas_95
+    400220: Bone_Arthas_96
+    400222: Bone_Arthas_97
+    400224: Bone_Arthas_98
+    400226: Bone_Arthas_99
+    400228: Mesh_Arthas
+    4300000: Mesh_Arthas
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Mesh_Arthas
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 5333
+      lastFrame: 5345
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Arthas_1
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_9
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_10
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_11
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_11/Bone_Arthas_17
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_11/Bone_Arthas_17/Bone_Arthas_24
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_11/Bone_Arthas_17/Bone_Arthas_24/Bone_Arthas_34
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_11/Bone_Arthas_17/Bone_Arthas_24/Bone_Arthas_34/Bone_Arthas_35
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_11/Bone_Arthas_17/Bone_Arthas_24/Bone_Arthas_34/Bone_Arthas_35/Bone_Arthas_40
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_11/Bone_Arthas_17/Bone_Arthas_25
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_11/Bone_Arthas_17/Bone_Arthas_94
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_11/Bone_Arthas_17/Bone_Arthas_97
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_11/Bone_Arthas_17/Bone_Arthas_98
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_11/Bone_Arthas_17/Bone_Arthas_99
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_12
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_12/Bone_Arthas_18
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_12/Bone_Arthas_18/Bone_Arthas_26
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_12/Bone_Arthas_18/Bone_Arthas_26/Bone_Arthas_30
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_12/Bone_Arthas_18/Bone_Arthas_26/Bone_Arthas_30/Bone_Arthas_104
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_12/Bone_Arthas_18/Bone_Arthas_26/Bone_Arthas_31
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_12/Bone_Arthas_18/Bone_Arthas_26/Bone_Arthas_31/Bone_Arthas_36
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_12/Bone_Arthas_18/Bone_Arthas_26/Bone_Arthas_31/Bone_Arthas_36/Bone_Arthas_41
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_12/Bone_Arthas_18/Bone_Arthas_26/Bone_Arthas_31/Bone_Arthas_37
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_12/Bone_Arthas_18/Bone_Arthas_26/Bone_Arthas_31/Bone_Arthas_102
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_12/Bone_Arthas_18/Bone_Arthas_26/Bone_Arthas_31/Bone_Arthas_102/Bone_Arthas_112
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_12/Bone_Arthas_18/Bone_Arthas_26/Bone_Arthas_31/Bone_Arthas_102/Bone_Arthas_113
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_12/Bone_Arthas_18/Bone_Arthas_26/Bone_Arthas_31/Bone_Arthas_105
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_12/Bone_Arthas_18/Bone_Arthas_26/Bone_Arthas_31/Bone_Arthas_109
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_12/Bone_Arthas_18/Bone_Arthas_26/Bone_Arthas_31/Bone_Arthas_110
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_12/Bone_Arthas_18/Bone_Arthas_26/Bone_Arthas_100
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_12/Bone_Arthas_18/Bone_Arthas_96
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_12/Bone_Arthas_89
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_13
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_13/Bone_Arthas_19
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_13/Bone_Arthas_19/Bone_Arthas_27
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_13/Bone_Arthas_19/Bone_Arthas_27/Bone_Arthas_32
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_13/Bone_Arthas_19/Bone_Arthas_27/Bone_Arthas_32/Bone_Arthas_103
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_13/Bone_Arthas_19/Bone_Arthas_27/Bone_Arthas_33
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_13/Bone_Arthas_19/Bone_Arthas_27/Bone_Arthas_33/Bone_Arthas_38
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_13/Bone_Arthas_19/Bone_Arthas_27/Bone_Arthas_33/Bone_Arthas_38/Bone_Arthas_42
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_13/Bone_Arthas_19/Bone_Arthas_27/Bone_Arthas_33/Bone_Arthas_39
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_13/Bone_Arthas_19/Bone_Arthas_27/Bone_Arthas_33/Bone_Arthas_101
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_13/Bone_Arthas_19/Bone_Arthas_27/Bone_Arthas_33/Bone_Arthas_106
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_13/Bone_Arthas_19/Bone_Arthas_27/Bone_Arthas_33/Bone_Arthas_107
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_13/Bone_Arthas_19/Bone_Arthas_27/Bone_Arthas_33/Bone_Arthas_108
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_13/Bone_Arthas_19/Bone_Arthas_27/Bone_Arthas_33/Bone_Arthas_111
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_13/Bone_Arthas_19/Bone_Arthas_95
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_13/Bone_Arthas_90
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_80
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_81
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_82
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_83
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_84
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_85
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_86
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_87
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_88
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_5/Bone_Arthas_88/Bone_Arthas_91
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_65
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_66
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_67
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_68
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_69
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_70
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_71
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_72
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_73
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_74
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_75
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_76
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_77
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_78
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_3/Bone_Arthas_79
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_4
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_4/Bone_Arthas_6
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_4/Bone_Arthas_6/Bone_Arthas_14
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_4/Bone_Arthas_7
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_4/Bone_Arthas_7/Bone_Arthas_15
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_4/Bone_Arthas_7/Bone_Arthas_15/Bone_Arthas_20
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_4/Bone_Arthas_7/Bone_Arthas_15/Bone_Arthas_20/Bone_Arthas_28
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_4/Bone_Arthas_7/Bone_Arthas_15/Bone_Arthas_21
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_4/Bone_Arthas_7/Bone_Arthas_15/Bone_Arthas_21/Bone_Arthas_93
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_4/Bone_Arthas_8
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_4/Bone_Arthas_8/Bone_Arthas_16
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_4/Bone_Arthas_8/Bone_Arthas_16/Bone_Arthas_22
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_4/Bone_Arthas_8/Bone_Arthas_16/Bone_Arthas_22/Bone_Arthas_29
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_4/Bone_Arthas_8/Bone_Arthas_16/Bone_Arthas_23
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_4/Bone_Arthas_8/Bone_Arthas_16/Bone_Arthas_23/Bone_Arthas_92
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_4/Bone_Arthas_63
+        weight: 1
+      - path: Bone_Arthas_1/Bone_Arthas_2/Bone_Arthas_4/Bone_Arthas_64
+        weight: 1
+      - path: Bone_Arthas_43
+        weight: 1
+      - path: Bone_Arthas_44
+        weight: 1
+      - path: Bone_Arthas_45
+        weight: 1
+      - path: Bone_Arthas_46
+        weight: 1
+      - path: Bone_Arthas_47
+        weight: 1
+      - path: Bone_Arthas_48
+        weight: 1
+      - path: Bone_Arthas_49
+        weight: 1
+      - path: Bone_Arthas_50
+        weight: 1
+      - path: Bone_Arthas_51
+        weight: 1
+      - path: Bone_Arthas_52
+        weight: 1
+      - path: Bone_Arthas_53
+        weight: 1
+      - path: Bone_Arthas_54
+        weight: 1
+      - path: Bone_Arthas_55
+        weight: 1
+      - path: Bone_Arthas_56
+        weight: 1
+      - path: Bone_Arthas_57
+        weight: 1
+      - path: Bone_Arthas_58
+        weight: 1
+      - path: Bone_Arthas_59
+        weight: 1
+      - path: Bone_Arthas_60
+        weight: 1
+      - path: Bone_Arthas_61
+        weight: 1
+      - path: Bone_Arthas_62
+        weight: 1
+      - path: Mesh_Arthas
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
