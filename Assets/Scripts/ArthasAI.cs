@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public enum State
 {
@@ -11,36 +12,74 @@ public class ArthasAI : MonoBehaviour
     public GameObject Sword;
     public Transform BackParent;
     public Transform HandParent;
+    public Transform Arthas;
 
     private Animator AnimCtrl;
     private int MoveSpeed;
-    private bool bWalk;
+    private bool bWalk = true;
     public float RotateSpeed = 15;
     public float WalkSpeed = 1;
     public State mState = State.Stand;
+    private Dictionary<string, int> InputDictionary = new Dictionary<string, int>();//key for keycode, value: 0 for none, 1 for press, 2 for up
 
     void Start()
     {
         AnimCtrl = GetComponentInChildren<Animator>();
+        InputDictionary.Add("0", 0);
+        InputDictionary.Add("1", 0);
+        InputDictionary.Add("W", 0);
+        InputDictionary.Add("A", 0);
+        InputDictionary.Add("S", 0);
+        InputDictionary.Add("D", 0);
     }
 
     void Update()
     {
+        GetInput();
+        MouseControl();
         MoveControl();
-        AnimControl();
+        RotateControl();
     }
 
-    void AnimControl()
+    void GetInput()
     {
-        switch (mState)
+        if (Input.GetMouseButton(0))
+            InputDictionary["0"] = 1;
+        else if (Input.GetMouseButtonUp(0))
+            InputDictionary["0"] = 2;
+
+        if (Input.GetMouseButton(1))
+            InputDictionary["1"] = 1;
+        else if (Input.GetMouseButtonUp(1))
+            InputDictionary["1"] = 2;
+
+        CheckMoveInput("w");
+        CheckMoveInput("a");
+        CheckMoveInput("s");
+        CheckMoveInput("d");
+    }
+
+    void CheckMoveInput(string keycode)
+    {
+        if (Input.GetKey(keycode))
+            InputDictionary[keycode] = 1;
+        else if (Input.GetKeyUp(keycode))
+            InputDictionary[keycode] = 2;
+    }
+
+
+    void MouseControl()
+    {
+        if (InputDictionary["1"] == 1)
         {
-            case State.Stand:
-                if (AnimCtrl.GetBool("Move"))
-                    AnimCtrl.SetBool("Move", false);
-                break;
-            case State.Move:
-                AnimCtrl.SetBool("Move", true);
-                break;
+            if (InputDictionary["0"] == 1)
+            {
+                FixVerticalPosition(bWalk ? 1 : 4);
+            }
+            //else
+            //{
+            //    FixVerticalPosition(0);
+            //}
         }
     }
 
@@ -57,7 +96,7 @@ public class ArthasAI : MonoBehaviour
         if (Input.GetKey(KeyCode.W))
         {
             mState = State.Move;
-            MoveSpeed = bWalk ? 1 : 2;
+            MoveSpeed = bWalk ? 1 : 4;
             delta = MoveSpeed;
         }
         if (Input.GetKey(KeyCode.S))
@@ -74,13 +113,10 @@ public class ArthasAI : MonoBehaviour
             MoveSpeed = bWalk ? 1 : 4;
         else
         {
-            MoveSpeed = 0;
             mState = State.Stand;
+            MoveSpeed = 0;
         }
-        AnimCtrl.SetFloat("Speed", MoveSpeed);
-        FixPosition(MoveSpeed);
-
-        RotateControl();
+        FixVerticalPosition(MoveSpeed);
     }
 
     void RotateControl()
@@ -90,24 +126,35 @@ public class ArthasAI : MonoBehaviour
             delta = -1;
         if (Input.GetKey(KeyCode.D))
             delta = 1;
-        if (Input.GetMouseButton(1))
+        if (InputDictionary["1"] == 1)
         {
             Cursor.visible = false;
             delta = Input.GetAxis("Mouse X");
         }
         else
+        {
             Cursor.visible = true;
+        }
         delta += Input.GetAxis("Joystick Horizontal");
 
         if (delta != 0)
             FixRotation(delta);
     }
 
-    void FixPosition(float delta)
+    void FixVerticalPosition(int delta)
     {
+        AnimCtrl.SetInteger("Speed", delta);
         if (mState == State.Stand)
             return;
         transform.position += transform.forward * WalkSpeed * Time.deltaTime * delta;
+        MoveLimit();
+    }
+
+    void FixHorizontalPosition(float delta)
+    {
+        if (mState == State.Stand)
+            return;
+        transform.position += transform.right * WalkSpeed * Time.deltaTime * delta;
         MoveLimit();
     }
 
