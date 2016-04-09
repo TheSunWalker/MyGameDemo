@@ -39,6 +39,7 @@ public class ArthasAI : MonoBehaviour
         MouseControl();
         MoveControl();
         RotateControl();
+        AttackControl();
     }
 
     void GetInput()
@@ -74,7 +75,9 @@ public class ArthasAI : MonoBehaviour
         {
             if (InputDictionary["0"] == 1)
             {
-                FixVerticalPosition(bWalk ? 1 : 4);
+                int delta = bWalk ? 1 : 4;
+                AnimCtrl.SetInteger("Speed", delta);
+                FixVerticalPosition(delta);
             }
             //else
             //{
@@ -177,5 +180,14 @@ public class ArthasAI : MonoBehaviour
         Vector3 euler = transform.localRotation.eulerAngles;
         euler += new Vector3(0, delta * RotateSpeed * Time.deltaTime, 0);
         transform.localRotation = Quaternion.Euler(euler);
+    }
+
+    void AttackControl()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            AnimCtrl.SetInteger("Die", 1);
+            AnimCtrl.SetInteger("Die", 2);
+        }
     }
 }
