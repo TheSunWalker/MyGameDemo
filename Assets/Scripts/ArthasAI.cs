@@ -47,12 +47,12 @@ public class ArthasAI : MonoBehaviour
         if (Input.GetMouseButton(0))
             InputDictionary["0"] = 1;
         else if (Input.GetMouseButtonUp(0))
-            InputDictionary["0"] = 2;
+            InputDictionary["0"] = 0;
 
         if (Input.GetMouseButton(1))
             InputDictionary["1"] = 1;
         else if (Input.GetMouseButtonUp(1))
-            InputDictionary["1"] = 2;
+            InputDictionary["1"] = 0;
 
         CheckMoveInput("w");
         CheckMoveInput("a");
@@ -65,25 +65,30 @@ public class ArthasAI : MonoBehaviour
         if (Input.GetKey(keycode))
             InputDictionary[keycode] = 1;
         else if (Input.GetKeyUp(keycode))
-            InputDictionary[keycode] = 2;
+            InputDictionary[keycode] = 0;
     }
 
-
+    private bool bAllowRotate = true;
     void MouseControl()
     {
+        int delta = 0;
         if (InputDictionary["1"] == 1)
         {
+            bAllowRotate = false;
             if (InputDictionary["0"] == 1)
             {
-                int delta = bWalk ? 1 : 4;
-                AnimCtrl.SetInteger("Speed", delta);
-                FixVerticalPosition(delta);
+                mState = State.Move;
+                delta = bWalk ? 1 : 4;
             }
-            //else
-            //{
-            //    FixVerticalPosition(0);
-            //}
+            else
+            { 
+                mState = State.Stand;
+                MoveSpeed = 0;
+            }
         }
+        else
+            bAllowRotate = true;
+        FixVerticalPosition(delta);
     }
 
     void MoveControl()
@@ -110,20 +115,20 @@ public class ArthasAI : MonoBehaviour
         }
         //Joystick hang on
         //delta += Input.GetAxis("Joystick Vertical");
-        if (delta < 0)
-            MoveSpeed = -1;
-        else if (delta > 0)
-            MoveSpeed = bWalk ? 1 : 4;
-        else
+        if (delta < 0 || delta > 0)
         {
-            mState = State.Stand;
-            MoveSpeed = 0;
+            if (delta < 0)
+                MoveSpeed = -1;
+            else
+                MoveSpeed = bWalk ? 1 : 4;
+            FixVerticalPosition(MoveSpeed);
         }
-        FixVerticalPosition(MoveSpeed);
     }
 
     void RotateControl()
     {
+        if (!bAllowRotate)
+            return;
         float delta = 0;
         if (Input.GetKey(KeyCode.A))
             delta = -1;
